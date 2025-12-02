@@ -5,7 +5,7 @@
   The project aims to create a directional antenna for 2.4GHz WiFi. The device can be used to maximize network range in one direction (e.g., along a long hallway) while minimizing radiation in the opposite direction, which is not accessible to users. 
 
 <div align="center">
-  <img src="https://github.com/IgorZeitz/test/blob/test2/images/Model%203D%20anteny%20helikalnej.png" alt="Logo" width="450" height="250">
+  <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Model%203D%20anteny%20helikalnej.png" alt="Logo" width="450" height="250">
   <br />
 
   </div>
@@ -27,7 +27,7 @@ To reduce the physical size, a thick wire with only 3 turns was used. This provi
 
 The antenna final design:
 <div align="center">
-  <img src="https://github.com/IgorZeitz/test/blob/test2/images/Antena-GOTOWA_2.webp" alt="Logo" width="250" height="250">
+  <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Antena-GOTOWA_2.webp" alt="Logo" width="250" height="250">
 </div>
 
 ## Simulations (AntennaDesigner)
@@ -41,7 +41,7 @@ The simulation model consists of:
 - 2.5 cm PVC core radius
   
 <div align="center">
-<img src="https://github.com/IgorZeitz/test/blob/test2/images/Ko%C5%84cowy%20model%20anteny%20-%20symulacje%20(z%20PVC).png" alt="Logo" width="650" height="487">
+<img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Ko%C5%84cowy%20model%20anteny%20-%20symulacje%20(z%20PVC).png" alt="Logo" width="650" height="487">
 </div>
 
 **Radiation Pattern**
@@ -51,13 +51,13 @@ The azimuth radiation pattern and 3D visualization illustrate how the antenna di
 
 | Azimuth | 3D visualization|
 |:------------------:|:-----:|
-| <img src="https://github.com/IgorZeitz/test/blob/test2/images/Charakterystyka%20promieniowania%20elewacyjna.png" alt="Logo" width="540" height="352"> | <img src="https://github.com/IgorZeitz/test/blob/test2/images/model%203D%20promieniowania.png" alt="Logo" width="540" height="352"> |
+| <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Charakterystyka%20promieniowania%20elewacyjna.png" alt="Logo" width="540" height="352"> | <img src="https://github.com/IgorZeitz/test/blob/test2/images/model%203D%20promieniowania.png" alt="Logo" width="540" height="352"> |
 
 A typical helical antena in end-fire mode has an impedace between 100 Ω and 200 Ω. In this design, the simulated impedance in the WiFi band is approximately 84 Ω, consisting almost entirely of resistive values.
 Such a desing requires the use of an impedance-matching stub.
 
 <h1 align="center"> 
-  <img src="https://github.com/IgorZeitz/test/blob/test2/images/Impedancja%20anteny%20-%20symulacja.png" alt="Logo" width="650" height="487">
+  <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Impedancja%20anteny%20-%20symulacja.png" alt="Logo" width="650" height="487">
 </h1>
 
 ## Feed Design
@@ -65,14 +65,14 @@ For impedance matching, a strip-line stub was used. The first design was created
 
 | calculated desing | trial-and-error method | final desing |
 |:------------------:|:-----:|:---:|
-| <img src="https://github.com/IgorZeitz/test/blob/test2/images/Nowy%20spos%C3%B3b%20dopasowania%20anteny%20-%20pr%C3%B3ba%201.jpg" alt="Logo" width="407" height="338"> | <img src="https://github.com/IgorZeitz/test/blob/test2/images/Nowy%20spos%C3%B3b%20dopasowania%20anteny%20-%20pr%C3%B3ba%203.jpg" alt="Logo" width="407" height="338"> | <img src="https://github.com/IgorZeitz/test/blob/test2/images/Nowy%20spos%C3%B3b%20dopasowania%20anteny%20-%20pr%C3%B3ba%202.jpg" width="407" height="338"> |
+| <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Nowy%20spos%C3%B3b%20dopasowania%20anteny%20-%20pr%C3%B3ba%201.jpg" alt="Logo" width="407" height="338"> | <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Nowy%20spos%C3%B3b%20dopasowania%20anteny%20-%20pr%C3%B3ba%203.jpg" alt="Logo" width="407" height="338"> | <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Nowy%20spos%C3%B3b%20dopasowania%20anteny%20-%20pr%C3%B3ba%202.jpg" width="407" height="338"> |
 
 **Impedance Matching**
 
 The measured values of S11 parameter for each strip-stub design are presented in the chart. The final antenna achieved a reflection coefficient of -27.8 dB.
 
 <div align="center">
-<img src="https://github.com/IgorZeitz/test/blob/test2/images/Zestawienie%20charakterystyk%20dopasowania.png" alt="Logo">
+<img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Zestawienie%20charakterystyk%20dopasowania.png" alt="Logo">
 </div>
 
 <br>
