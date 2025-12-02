@@ -51,7 +51,7 @@ The azimuth radiation pattern and 3D visualization illustrate how the antenna di
 
 | Azimuth | 3D visualization|
 |:------------------:|:-----:|
-| <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Charakterystyka%20promieniowania%20elewacyjna.png" alt="Logo" width="540" height="352"> | <img src="https://github.com/IgorZeitz/test/blob/test2/images/model%203D%20promieniowania.png" alt="Logo" width="540" height="352"> |
+| <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/Charakterystyka%20promieniowania%20elewacyjna.png" alt="Logo" width="540" height="352"> | <img src="https://github.com/IgorZeitz/2.4GHz-directional-WiFi-antenna/blob/main/images/model%203D%20promieniowania.png" alt="Logo" width="540" height="352"> |
 
 A typical helical antena in end-fire mode has an impedace between 100 Ω and 200 Ω. In this design, the simulated impedance in the WiFi band is approximately 84 Ω, consisting almost entirely of resistive values.
 Such a desing requires the use of an impedance-matching stub.
